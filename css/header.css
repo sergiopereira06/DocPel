@@ -1,0 +1,91 @@
+.header-actions a {
+    box-shadow: none;
+    text-decoration: none;
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.btn.entrar{
+    background-color: var(--white);
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--orange);
+    margin-right: 30px;
+}
+
+.btn.inscrever{
+    border-radius: 8px;
+    padding: 12px 24px;
+    background-color: var(--orange);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.btn.inscrever:hover{
+    background-color: #ca5100;
+}
+
+.btn.entrar:hover{
+    color: #ca5100;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    color: var(--dark-blue);
+    border-bottom: 1px solid #ddd;
+}
+
+.hero .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    width: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.hero-message {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-message .container{
+    flex: 1 1 48%;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.hero-message .img{
+    flex: 1 1 48%;
+    background-color: #304269;
+    width: 48%;
+    height: 200px;
+    margin-left: 2%;
+}

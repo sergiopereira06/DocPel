@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocPel - Gestão Inteligente</title>
+  
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <img src="https://a564f8181eed36491639d3f41fd0d751.cdn.bubble.io/cdn-cgi/image/w=192,h=55,f=auto,dpr=1.25,fit=contain/f1749240128696x484160492691771300/docpel.png" alt="Logo DocPel" class="logo" />
+
+      <!-- Navegação -->
+      <nav class="nav-links">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn entrar">Entrar</a>
+        <a class="btn inscrever">Inscreva-se</a>
+      </div>
+      
+      <!-- Botão de abrir/fechar menu (mobile) -->
+      <div class="menu-toggle">
+        <svg class="menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+          <path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path>
+        </svg>
+        <svg class="eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+          <path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-message">
+      <div class="container">
+        <h1>Revolucione Sua Gestão com DOC<span style="color: #F26101;">PEL</span>! Pré-Venda Exclusiva!</h1>
+        <br>
+        <p>
+          Cansado de perder tempo com <span style="font-weight: bold; color: #F26101;">planilhas e processos manuais</span>? O DOCPEL é o seu <span style="font-weight: bold; color: #F26101;">piloto automático</span> para gerenciar serviços, clientes e documentos, perfeito para advogados, prestadores de serviços e empreendedores!
+        </p>
+      </div>
+      <div class="img">
+
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>O que o DOCPEL oferece?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Assinatura Digital 🔐</h3>
+            <p>Assinaturas com validade jurídica, links personalizados e segurança.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Modelos & Contratos</h3>
+            <p>Templates prontos para propostas, contratos e documentos.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Agenda e Kanban</h3>
+            <p>Organize reuniões, tarefas e atendimentos de forma visual.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Centralização de dados</h3>
+            <p>Armazene clientes, serviços e histórico de forma segura.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Controle Financeiro</h3>
+            <p>Acompanhe pagamentos, cobranças e contratos por projeto/cliente.</p>
+          </div>
+          <div class="feature-card">
+            <h3>A Caminho:</h3>
+            <ul>
+              <li>🧠 Resumo de documentos com IA</li>
+              <li>⚖️ Jurisprudência & CNJ (para advogados)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans">
+      <div class="container">
+        <h2>Planos da Pré‑Venda</h2>
+        <div class="plans-grid">
+          <div class="plan-card highlight">
+            <h3>Plano Mensal</h3>
+            <p class="price">R$99,00</p>
+            <ul>
+              <li>1 mês de acesso antecipado</li>
+              <li>Inclui suporte e grupo WhatsApp</li>
+            </ul>
+            <button class="cta-button" id="selectPix">Pagar via PIX</button>
+          </div>
+          <div class="plan-card">
+            <h3>Plano Anual</h3>
+            <p class="price">R$990,00</p>
+            <ul>
+              <li>10x no cartão de crédito</li>
+              <li>Acesso completo por 1 ano</li>
+            </ul>
+            <button class="cta-button" id="selectCard">Pagar no Cartão</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section hidden" id="formulario">
+      <div class="container">
+        <h2>Finalize sua inscrição</h2>
+        <form class="form">
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" required />
+
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" required />
+
+          <label for="pagamento">Forma de pagamento selecionada *</label>
+          <input type="text" id="pagamento" readonly required />
+
+          <label for="comprovante">Anexe comprovante *</label>
+          <input type="file" id="comprovante" required />
+
+          <button type="submit" class="cta-button">Enviar Inscrição</button>
+        </form>
+        <p>Após enviar, você será direcionado ao grupo de WhatsApp dos fundadores.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DocPel. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+
+    .header-actions a{
+        position: absolute;
+        font-size: 14px;
+        top: 1.5rem;
+    }
+    
+    .btn.inscrever{
+        right: 4rem;
+        padding: 10px 20px;
+        margin-left: 15px;
+    }
+
+    .btn.entrar{
+        right: 10rem;
+        padding: 10px 20px;
+        margin-left: 15px;
+    }
+
+    .hero-message .container{
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+
+    .hero-message .img{
+        flex: 1 2 100%;
+        background-color: #304269;
+        height: 200px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+    }
+
+    .menu-bar,
+    .eicon-close {
+        display: none;
+    }
+
+    .menu-bar.active,
+    .eicon-close.active {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .features-grid,
+    .plans-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card,
+    .plan-card {
+        width: 90%;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+}

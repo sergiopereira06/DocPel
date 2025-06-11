@@ -1,0 +1,20 @@
+:root {
+  --dark-blue: #304269;
+  --medium-blue: #91BED4;
+  --light-blue: #e8eff6;
+  --white: #FFFFFF;
+  --orange: #F26101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  line-height: 1.5;
+}
