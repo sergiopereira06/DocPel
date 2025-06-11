@@ -1,0 +1,31 @@
+
+.content {
+    
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+}
+
+.content .container{
+    flex: 1;
+    margin-right: 2%;
+    padding: auto;
+}
+
+.content .img{
+    flex: 1;
+    background-color: #304269;
+    margin-left: 2%;
+    padding: auto;
+}
+.content .container, .content .img{
+    margin-top: 80px;
+}
+
+.accent-color{
+    color: var(--orange);
+}
+
+.accent-color.bold{
+    font-weight: bold;
+}
