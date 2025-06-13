@@ -1,5 +1,4 @@
 @media (max-width: 900px) {
-
     .btn.inscrever{
         right: 4rem;
         margin-left: 15px;
@@ -62,9 +61,26 @@
         display: flex;
     }
 
+    .plan{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #plan .tittle{
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    #plan .container{
+        order: 1;
+    }
+
+    #plan .img{
+        order: 0;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 768px) {
-
     .content{
         display: flex;
         flex-direction: column;
@@ -91,21 +107,7 @@
         width: 90%;
     }
 
-    .plan{
-        display: flex;
-        flex-direction: column;
+    #plan .plan .container a{
+        display: block;
     }
-    #plan .tittle{
-        order: -1;
-        margin-bottom: 10px;
-    }
-    #plan .container{
-        order: 1;
-    }
-
-    #plan .img{
-        order: 0;
-        margin-bottom: 20px;
-    }
-
 }
