@@ -16,18 +16,18 @@
 <body>
   <header class="header">
     <div class="container">
-      <img src="https://a564f8181eed36491639d3f41fd0d751.cdn.bubble.io/cdn-cgi/image/w=192,h=55,f=auto,dpr=1.25,fit=contain/f1749240128696x484160492691771300/docpel.png" alt="Logo DocPel" class="logo" />
+      <a href="./index.html"><img src="https://a564f8181eed36491639d3f41fd0d751.cdn.bubble.io/cdn-cgi/image/w=192,h=55,f=auto,dpr=1.25,fit=contain/f1749240128696x484160492691771300/docpel.png" alt="Logo DocPel" class="logo" /></a>
 
       <!-- Navegação -->
       <nav class="nav-links">
-        <a href="#funcionalidades">Funcionalidades</a>
-        <a href="#plans">Planos</a>
+        <a href="#features">Funcionalidades</a>
+        <a href="#plan">Planos</a>
         <a href="#perguntas">Perguntas Frequentes</a>
       </nav>
 
       <div class="header-actions">
-        <a class="btn entrar">Entrar</a>
-        <a class="btn inscrever">Inscreva-se</a>
+        <!--<a class="btn entrar">Entrar</a>-->
+        <a class="btn inscrever" href="https://docpel-98405.bubbleapps.io/version-test/cadastro">Inscreva-se</a>
       </div>
       
       <!-- Botão de abrir/fechar menu (mobile) -->
@@ -50,11 +50,11 @@
         <p><span class="accent-color bold">Criação e gestão de documentos</span> com assinatura eletrônica, pensado para freelancers e advogados brasileiros. Uma solução simples e organizada para <span class="accent-color bold">substituir Trello, Notion, Google Drive e planilhas</span>. A assinatura digital fácil como você nunca viu!</p>
       </div>
       <div class="img">
-        Imagem
+        <img src="" alt="" srcset="">
       </div>
     </section>
         
-    <section class="features" id="funcionalidades">
+    <section id="features">
       <div class="container">
         <h2>O que o DOCPEL oferece?</h2>
         <div class="features-grid">
@@ -88,59 +88,47 @@
         </div>
       </div>
     </section>
-    <section class="plans" id="plans">
-      <div class="container">
-        <h2>QUERO ME TORNAR UM FUNDADOR AGORA!</h2>
-        <p class="time-limited">Oferta por Tempo Limitado!</p>
-        <div class="plans-grid">
-          <div class="plan-card highlight">
-            <h3>Plano Mensal</h3>
-            <p class="price">R$99,00</p>
-            <ul>
-              <li>1 mês de acesso antecipado</li>
-              <li>Inclui suporte e grupo WhatsApp</li>
-            </ul>
-            <button class="cta-button" id="selectPix">Pagar via PIX</button>
-          </div>
-          <div class="plan-card">
-            <h3>Plano Anual</h3>
-            <p class="price">R$990,00</p>
-            <ul>
-              <li>10x no cartão de crédito</li>
-              <li>Acesso completo por 1 ano</li>
-            </ul>
-            <button class="cta-button" id="selectCard">Pagar no Cartão</button>
-          </div>
+    <section id="plan">
+      <div class="tittles">
+        <h2>Torne-se um Fundador DOCPEL</h3>
+        <h3 class="accent-color"">Uma Oportunidade Única de Fazer Parte da Construção!</h4>
+        <p>O Plano Fundador foi feito para quem quer mais do que usar uma ferramenta, quer fazer parte da sua evolução.</p>
+      </div>
+      
+      
+      <div class="plan">
+        <div class="img">
+          <img src="./imgs/img_docpel.png" alt="" srcset="">
+        </div>
+        <div class="container">
+          
+          <h4 class="accent-color">Benefícios Exclusivos de Ser um Fundador:</h5>
+          <p class="subtittle">🔒 Acesso VIP ao Grupo dos Fundadores</p>
+          <p class="descrition">Entre para um grupo exclusivo no WhatsApp com os criadores do DOCPEL. Tire dúvidas, troque ideias e receba novidades em primeira mão.</p>
+          <p class="subtittle">🧠 Ajude a Construir o Futuro</p>
+          <p class="descrition">Sua voz será ouvida! Sugira funcionalidades, teste novidades antes de todo mundo e influencie diretamente o desenvolvimento da plataforma.</p>
+          <p class="subtittle">⚡ Suporte Prioritário</p>
+          <p class="descrition">Nada de filas: como Fundador, seu feedback e suas dúvidas serão tratados com prioridade máxima — direto com os criadores.</p>
+          <p class="subtittle">🎁 Vantagens Só para Fundadores</p>
+          <p class="descrition">Tenha acesso antecipado às atualizações e benefícios exclusivos que não estarão disponíveis nos planos futuros.</p>
+          <p class="subtittle">💰 Plano Fundador: R$99,00/mês</p>
+          <p class="descrition">Válido por 12 meses com acesso completo a todas as atualizações.</p>
+ 
+          <a>Quero Ser Fundador!</a>
+          <p class="vagas">🚨vagas limitadas!</p>
         </div>
       </div>
+      
+      
     </section>
+    <section id="faq">
 
-    <section class="form-section hidden" id="formulario">
-      <div class="container">
-        <h2>Finalize sua inscrição</h2>
-        <form class="form">
-          <label for="nome">Nome completo *</label>
-          <input type="text" id="nome" required />
-
-          <label for="email">E-mail *</label>
-          <input type="email" id="email" required />
-
-          <label for="pagamento">Forma de pagamento selecionada *</label>
-          <input type="text" id="pagamento" readonly required />
-
-          <label for="comprovante">Anexe comprovante *</label>
-          <input type="file" id="comprovante" required />
-
-          <button type="submit" class="cta-button">Enviar Inscrição</button>
-        </form>
-        <p>Após enviar, você será direcionado ao grupo de WhatsApp dos fundadores.</p>
-      </div>
     </section>
   </main>
-
   <footer>
     <div class="container">
       <p>&copy; 2025 DocPel. Todos os direitos reservados.</p>
+      <a href="./politica-de-privacidade.html">Política de Privacidade</a>
     </div>
   </footer>
 

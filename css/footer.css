@@ -3,4 +3,29 @@ footer {
   color: var(--white);
   padding: 1rem 0;
   text-align: center;
+  font-size: 12px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;      /* centraliza os itens horizontalmente */
+  align-items: center;          /* alinha verticalmente */
+  gap: 1rem;                    /* espaçamento entre os itens (opcional) */
+  position: relative;
+  padding: 1rem;
+}
+
+/* Centraliza o <p> absolutamente no centro */
+footer .container p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+/* Posiciona o link à direita */
+footer .container a {
+  margin-left: auto;
+  color: var(--white);
+  text-decoration: none;
 }
