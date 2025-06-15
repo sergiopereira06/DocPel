@@ -1,0 +1,54 @@
+#plan {
+    scroll-margin-top: 70px
+}
+
+#plan .img{
+    flex: 1;
+    margin-left: 2%;
+    color: white;
+    margin: auto 0;
+}
+
+#plan img{
+    width: 100%;
+    height: auto;
+}
+
+#plan .standard-button{
+    display: block;
+    margin-top: 30px;
+}
+
+#plan a:hover{
+    background-color: #ca5100;;
+}
+#plan .vagas{
+    text-align: center;
+    font-size: 12px;
+}
+
+#plan .plan {
+    display: flex;
+    padding: 2rem;
+}
+
+#plan .tittles h2, #plan .tittles h3, #plan .tittles p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#plan .plan .descrition{
+    font-size: 12px;
+    text-align: justify;
+}
+#plan .plan .subtittle{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#plan .plan .container{
+    flex: 1;
+    margin-right: 2%;
+    padding: auto;
+}

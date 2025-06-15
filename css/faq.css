@@ -1,0 +1,61 @@
+#faq {
+    scroll-margin-top: 70px;
+    display: flex;
+    padding: 2rem;
+}
+#faq .contact{
+    flex: 1;
+    margin-right: 2%;
+}
+
+#faq .questions{
+    flex: 1;
+    margin-left: 2%;
+}
+
+#faq .contact h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#faq .contact h4{
+    margin-bottom: 10px;
+}
+#faq .contact p:last-of-type{
+    margin-bottom: 20px;
+}
+
+#faq details{
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+#faq details p{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#faq details summary {
+    font-weight: bold;
+    margin-bottom: 20px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px; /* espaço pro ícone */
+}
+
+/* Ícone personalizado à direita */
+#faq details summary::after {
+    content: "▶"; /* seta fechada */
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s;
+}
+
+/* Quando aberto, gira o ícone */
+#faq details[open] summary::after {
+    content: "▼";
+    transform: rotate(0deg);
+}

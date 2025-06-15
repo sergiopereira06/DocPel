@@ -1,0 +1,19 @@
+#politica-privacidade{
+    margin: 0px 100px 0px 100px;
+}
+
+#politica-privacidade h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#politica-privacidade h2{
+    font-size: 20px;
+    margin: 40px 0px 20px 0px;
+}
+
+#politica-privacidade P{
+    margin-bottom: 15px;
+}

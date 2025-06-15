@@ -1,3 +1,6 @@
+/* ============================= */
+/* Paleta de Cores - Variáveis */
+/* ============================= */
 :root {
   --dark-blue: #304269;
   --medium-blue: #91BED4;
@@ -7,6 +10,9 @@
   --red: #ff0000;
 }
 
+/* ============================= */
+/* Reset e Base da Página */
+/* ============================= */
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +26,40 @@ body {
   line-height: 1.5;
 }
 
+/* ============================= */
+/* Botão Padrão */
+/* ============================= */
+.standard-button {
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: var(--orange);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+  text-align: center;
+  display: inline-block; /* Adicionado para evitar bugs em layouts */
+  transition: background-color 0.3s ease;
+}
+
+.standard-button:hover {
+  background-color: #ca5100; /* variação do laranja para hover */
+}
+
+/* ============================= */
+/* Cores de Destaque */
+/* ============================= */
+.accent-color {
+  color: var(--orange);
+}
+
+.accent-color.bold {
+  font-weight: bold;
+}
+
+/* ============================= */
 /* Utilitários */
+/* ============================= */
 .hidden {
   display: none;
 }
-
