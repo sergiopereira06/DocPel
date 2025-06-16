@@ -6,17 +6,21 @@
 
 #content .container{
     flex: 1;
-    margin-right: 2%;
-    padding: auto;
+    padding: auto 2%;
+    margin: auto 0;
 }
 
-#content .img{
+#content .video{
     flex: 1;
-    margin-left: 2%;
-    color: white;
-    background-color: aqua;
+    padding: auto 2%;
 }
 
-#content .container, #content .img{
+#content video{
+    width: 90%;
+    height: auto;
+    padding: auto 2%;
+}
+
+#content .container, #content .video{
     margin-top: 80px;
 }

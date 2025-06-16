@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuBarIcon = document.querySelector(".menu-bar");
   const closeIcon = document.querySelector(".eicon-close");
   const navLinks = document.querySelector(".nav-links");
-
+  
   small_window()
 
   window.addEventListener("resize", (e) => {
